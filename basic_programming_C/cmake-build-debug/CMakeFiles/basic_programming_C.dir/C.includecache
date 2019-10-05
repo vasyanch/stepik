@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vasya/Dropbox/WWWW/edu/STEPIK/basic_programming_C/main.c
+stdio.h
+-
+stdlib.h
+-
+

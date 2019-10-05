@@ -1,0 +1,9 @@
+# настройка upstream в nginx
+
+upstream backend {
+    server back1.example.com:8080 weight=1 max_fails=3;
+    server back2.example.com:8080 weight=2;
+    server unix:/tmp/backend.sock;
+    server backup1.example.com:8080 backup;
+    server backup2.example.com:8080 backup;
+}

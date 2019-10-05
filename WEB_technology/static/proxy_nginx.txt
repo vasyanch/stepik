@@ -1,0 +1,12 @@
+proxy_set_header Host              $host;           #$proxy_host
+proxy_set_header X-Real-IP         $remote_addr;
+
+location / {
+    proxy_pass    http://backend;
+}
+location /partner/ {
+    proxy_pass    http://www.partner.com;
+}
+location ~ \.\w\w\w?\w?$ {
+    root /www/static;
+}
