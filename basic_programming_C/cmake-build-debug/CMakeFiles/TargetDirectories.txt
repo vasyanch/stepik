@@ -1,3 +1,0 @@
-/home/vasya/Dropbox/WWWW/edu/STEPIK/basic_programming_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/vasya/Dropbox/WWWW/edu/STEPIK/basic_programming_C/cmake-build-debug/CMakeFiles/basic_programming_C.dir
-/home/vasya/Dropbox/WWWW/edu/STEPIK/basic_programming_C/cmake-build-debug/CMakeFiles/edit_cache.dir
